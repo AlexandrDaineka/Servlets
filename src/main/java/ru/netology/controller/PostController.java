@@ -10,7 +10,7 @@ import java.io.Reader;
 
 public class PostController {
   private final Gson gson = new Gson();
-  public static final String APPLICATION_JSON = "application/json";
+  private static final String APPLICATION_JSON = "application/json";
   private final PostService service;
 
   public PostController(PostService service) {
@@ -38,9 +38,7 @@ public class PostController {
 
   public void removeById(long id, HttpServletResponse response) throws IOException {
     response.setContentType(APPLICATION_JSON);
-    final var post = gson.fromJson("ресурс удален", Post.class);
     service.removeById(id);
-    response.getWriter().print(gson.toJson(post));
+    response.getWriter().print(gson.toJson("ресурс удален"));
   }
-
 }
