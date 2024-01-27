@@ -1,5 +1,6 @@
 package ru.netology.servlet;
 
+import org.springframework.stereotype.Component;
 import ru.netology.controller.PostController;
 import ru.netology.repository.PostRepository;
 import ru.netology.service.PostService;
@@ -9,16 +10,13 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicLong;
-
+@Component
 public class MainServlet extends HttpServlet {
     private PostController controller;
     private static final String ENDPOINT = "/api/posts/";
 
-    @Override
-    public void init() {
-        final var repository = new PostRepository();
-        final var service = new PostService(repository);
-        controller = new PostController(service);
+    public MainServlet(PostController controller) {
+        this.controller = controller;
     }
 
     @Override
