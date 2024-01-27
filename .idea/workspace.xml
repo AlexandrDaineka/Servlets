@@ -10,11 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9351ac11-63f1-45fd-b36c-6e54afa550d4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/repository/PostRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/repository/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/repository/PostRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/servlet/MainServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/controller/PostController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/repository/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/repository/PostRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/servlet/MainServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +33,16 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/di-annotation" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -46,25 +60,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Александр Дайнека/IdeaProjects/servlets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Александр Дайнека/IdeaProjects/Servlets/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Tomcat Server.Tomcat 9.0.80.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "feature/di-java",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Александр Дайнека/IdeaProjects/Servlets",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Александр Дайнека/IdeaProjects/Servlets/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Servlets" />
@@ -167,6 +185,13 @@
       </method>
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-21.0.2-openjdk-21.0.2-f644763e9732-c0c073db" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -177,6 +202,7 @@
       <updated>1693667577924</updated>
       <workItem from="1693667578963" duration="6534000" />
       <workItem from="1693829937005" duration="2222000" />
+      <workItem from="1706361031906" duration="1955000" />
     </task>
     <servers />
   </component>
