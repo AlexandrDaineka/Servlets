@@ -10,19 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9351ac11-63f1-45fd-b36c-6e54afa550d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/controller/PostController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/service/PostService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Config/JavaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/controller/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/repository/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/repository/PostRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/netology/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/netology/servlet/MainServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/controller/PostController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/controller/PostController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/repository/PostRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/repository/PostRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/servlet/MainServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/servlets-1.0-SNAPSHOT/WEB-INF/classes/ru/netology/servlet/MainServlet.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +30,8 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/di-annotation" />
+        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feature/di-java" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -202,7 +193,8 @@
       <updated>1693667577924</updated>
       <workItem from="1693667578963" duration="6534000" />
       <workItem from="1693829937005" duration="2222000" />
-      <workItem from="1706361031906" duration="1955000" />
+      <workItem from="1706361031906" duration="3076000" />
+      <workItem from="1706443084859" duration="2178000" />
     </task>
     <servers />
   </component>

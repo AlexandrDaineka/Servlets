@@ -30,9 +30,4 @@ public class JavaConfig {
     public PostRepository postRepository() {
         return new PostRepository();
     }
-
-    @Bean
-    public MainServlet mainServlet(PostController postController) {
-        return new MainServlet(postController);
-    }
 }

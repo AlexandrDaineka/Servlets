@@ -1,5 +1,7 @@
 package ru.netology.servlet;
 
+import org.springframework.context.ApplicationContext;
+import ru.netology.Config.JavaConfig;
 import ru.netology.controller.PostController;
 import ru.netology.repository.PostRepository;
 import ru.netology.service.PostService;
@@ -7,6 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Component;
 
+import javax.servlet.ServletContext;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -17,8 +20,10 @@ public class MainServlet extends HttpServlet {
     private PostController controller;
     private static final String ENDPOINT = "/api/posts/";
 
-    public MainServlet(PostController controller) {
-        this.controller = controller;
+    @Override
+    public void init() {
+        ApplicationContext context = new AnnotationConfigApplicationContext(JavaConfig.class);
+        controller = context.getBean(PostController.class);
     }
 
     @Override
