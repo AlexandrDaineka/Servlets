@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9351ac11-63f1-45fd-b36c-6e54afa550d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/Config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/Config/JavaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/netology/servlet/MainServlet.java" afterDir="false" />
-    </list>
+    <list default="true" id="9351ac11-63f1-45fd-b36c-6e54afa550d4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -194,7 +190,7 @@
       <workItem from="1693667578963" duration="6534000" />
       <workItem from="1693829937005" duration="2222000" />
       <workItem from="1706361031906" duration="3076000" />
-      <workItem from="1706443084859" duration="2178000" />
+      <workItem from="1706443084859" duration="2542000" />
     </task>
     <servers />
   </component>
